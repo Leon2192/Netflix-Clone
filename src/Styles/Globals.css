@@ -1,0 +1,192 @@
+.home{
+    background-color: #111;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.appbar{
+    background-color: red;
+
+}
+.transparent{
+    background-color: "transparent";
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Herobanner{
+   
+    position:relative;
+    height: 440px;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.buttons Button{
+ cursor: pointer;
+ color:#fff ;
+ font-weight: 700;
+ border-radius: 5px;
+ padding: 8px;
+ margin-right: 1rem;
+ margin-left: 1rem;
+ background-color: rgba(51, 51, 51, 0.5);  
+}
+.buttons Button:hover{
+    color: #000;
+    background-color: #e6a6a6;
+}
+
+.fadeBottom{
+    position: absolute;
+    top: 30vh;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #111); 
+}
+.login{
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/banner.jpg');
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginLogo{
+     padding: 8px;
+     position: fixed;
+     top:0;
+     left: 20px;
+     width: 150px;
+     cursor: pointer;
+}
+.sessionButton{
+    position: fixed;
+    z-index: 15px;
+    right: 20px;
+    top: 20px;
+}
+
+.info{
+    color: #fff;
+    z-index: 15px;
+    text-align: center;
+}
+.info h4, h5, h6{
+    font-weight: 500;
+}
+
+.profileRoot{
+    color: #fff;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+.profileInfo{
+    width: 80%;
+    display: flex;
+}
+.profileInfo img{
+    height: 100px;
+}
+
+.profileDetails{
+    width: 100%;
+    margin-left: 3px;
+}
+.profileDetails h6{
+    background-color: #aaa;
+    padding: 1px;
+    margin-bottom: 1px;
+    font-size: 18px;
+}
+.profilePlans{
+    width: 100%;
+
+}
+.plansText{
+    border-bottom: 1px solid lightgray;
+}
+
+.plansRoot{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.plansRoot .plansButton{
+    margin-bottom: 2px;
+}
+.standard{
+    font-size: 1.2rem;  
+}
+.signUpRoot{
+    max-width: 350px;
+    width: 20rem;
+    height: 25rem;
+    background:rgba(0,0,0,0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.signUpRoot h5{
+    margin-top: 5px;
+    width: 70%;
+}
+.form{
+    width: 80%;
+}
+
+.email{
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 15px;
+}
+
+.signUpLink{
+    color: #fff;
+    cursor: pointer;
+
+}
+.signUpLink:hover{
+    text-decoration: underline;
+}
+.rowsRoot{
+    color: #fff;
+    margin-left: 27px;
+}
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+ ::-webkit-scrollbar{
+    display: none;
+}
+.posterImage{
+    max-height: 15rem;
+    object-fit: contain;
+    margin-right: 20px;
+    transition: 450ms;
+
+}
+.posterImage:hover{
+    transform: scale(1.1);
+}
