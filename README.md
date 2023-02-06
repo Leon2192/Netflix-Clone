@@ -1,4 +1,5 @@
 # Netflix-Clone
+![Image text](https://i.postimg.cc/W3hFBQHN/netflix.png)
 ## Este proyecto utiliza CSS, Javascript, React, Redux, Styled Components, Material UI, React Router Dom, Axios y Firebase.
 ### Clon basado en la UI de Netflix.
 #### Comunicación con API TMDB.
